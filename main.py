@@ -31,12 +31,12 @@ if __name__ == '__main__':
 
     # Rezept laden
     recipe = load_recipe(recipe_json)
-    print("Original Recipe:", recipe)
+    print('Original Recipe:', recipe)
 
     # Rezept für 2 Personen anpassen
     adjusted_recipe = adjust_recipe(recipe, 2)
-    print("Adjusted Recipe for 2 servings:", adjusted_recipe)
+    print('Adjusted Recipe for 2 servings:', adjusted_recipe)
 
     # Rezept für 6 Personen anpassen
     adjusted_recipe = adjust_recipe(recipe, 6)
-    print("Adjusted Recipe for 6 servings:", adjusted_recipe)
+    print('Adjusted Recipe for 6 servings:', adjusted_recipe)
